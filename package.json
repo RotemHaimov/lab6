@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "mongo": "node mongo.js",
     "add": "node adduser.js",
-    "list": "node listusers.js"
+    "list": "node listusers.js",
+    "clear": "node cleardb.js",
+    "trymongo": "node test.js"
   },
   "author": "",
   "license": "ISC",
