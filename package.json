@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"mongo": "node mongo.js",
-	"add": "node adduser.js"
+    "mongo": "node mongo.js",
+    "add": "node adduser.js",
+    "list": "node listusers.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "debug": "^3.1.0",
-    "mongoose": "^5.0.11"
+    "mongoose": "^5.0.11",
+    "readline": "^1.3.0"
   }
 }
